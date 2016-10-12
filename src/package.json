@@ -1,0 +1,47 @@
+{
+  "name": "angular.seed",
+  "version": "0.0.1",
+  "description": "An angular 1.5 seed project with browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cogoo@github.com/cogoo/angularStarter.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Colin Ogoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cogoo/angularStarter/issues"
+  },
+  "homepage": "https://github.com/cogoo/angularStarter#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-if": "^2.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.7.3",
+    "gulp-template": "^4.0.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

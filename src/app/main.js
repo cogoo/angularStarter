@@ -5,6 +5,20 @@ var angular = require('angular');
 require('angular-animate');
 require('angular-ui-router');
 
+// AngularFire
+var firebase = require('firebase');
+require('angularfire');
+
+var config = {
+  apiKey: "AIzaSyD9xxPdUQaAyzdlzoafnNam4zlpnVppGc0",
+  authDomain: "angularstarter-6c5e2.firebaseapp.com",
+  databaseURL: "https://angularstarter-6c5e2.firebaseio.com",
+  storageBucket: "angularstarter-6c5e2.appspot.com",
+  messagingSenderId: "5289947821"
+};
+firebase.initializeApp(config);
+
+
 // Restangular expects underscore or lodash
 window._ = require('lodash');
 
@@ -30,6 +44,8 @@ angular
     // Angular Dependencies
     'ui.router',
     'ngAnimate',
+    // AngularFire
+    'firebase',
     // App Modules
     'App.Home',
     'templates',

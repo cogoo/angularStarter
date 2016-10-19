@@ -23,6 +23,8 @@
     "angular": "^1.5.8",
     "angular-animate": "^1.5.8",
     "angular-ui-router": "^0.3.1",
+    "angularfire": "^2.0.2",
+    "firebase": "^3.5.0",
     "lodash": "^4.16.4"
   },
   "devDependencies": {

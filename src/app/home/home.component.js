@@ -6,9 +6,11 @@ module.exports = {
   controller: HomeController
 }
 
-HomeController.$inject = [];
+HomeController.$inject = [
+  'firebaseFactory'
+];
 
-function HomeController() {
+function HomeController(firebaseFactory) {
   var vm = angular.extend(this, {
     msg: 'this is the message'
   });
@@ -20,5 +22,12 @@ function HomeController() {
    */
   function init() {
     // init code here
+    firebaseFactory
+      .getData()
+      .$loaded()
+      .then(function(data) {
+        console.log('data', data);
+
+      })
   }
 }
